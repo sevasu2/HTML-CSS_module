@@ -1,0 +1,36 @@
+.el_label {
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  background-color: #e25c00;
+  color: #fff;
+  font-style: 0.75rem;
+  font-weight: bold;
+  border: 2px solid transparent;
+}
+
+a.el_label {
+  text-decoration: none;
+  text-decoration: 0.25s;
+}
+
+a.el_label:focus,
+a.el_label:hover {
+  background-color: #fff;
+  border-color: currentColor;
+  color: #e25c00;
+}
+
+.el_label.el_label__yellow {
+  background-color: #f1de00;
+  color: #000;
+}
+
+.el_roundLabel {
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  background-color: #e25c00;
+  border-radius: 1em;
+  color: #fff;
+  font-style: 0.75rem;
+  font-weight: bold;
+}
